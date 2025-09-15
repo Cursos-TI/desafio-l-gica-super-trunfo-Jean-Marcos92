@@ -86,7 +86,7 @@ int main() {
     printf("País: %s\n", pais);
     printf("População: %d\n", populacao);
     printf("Área: %.2f km²\n", area);
-    printf("PIB: %.2f mil\n", PIB); // não estou usando Bilhões, pois estou fazendo exemplo com as cidades pequenas da minha região
+    printf("PIB: %.2f mil\n", PIB); 
     printf("Pontos turísticos: %d\n", pontosT);
     printf("Densidade populacional: %.2f hab/km²\n", densidade);
     printf("PIB per capita: %.2f reais\n", PIBpc);
@@ -118,6 +118,7 @@ printf("Super Poder = 7 \n");
 printf("Escolha o atributo a ser comparado: ");
 scanf("%d", &escolhadacomparacao);
 
+//menu de escolhas
   switch (escolhadacomparacao)
 {
  case 1:
