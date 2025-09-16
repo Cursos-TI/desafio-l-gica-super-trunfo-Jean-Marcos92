@@ -156,7 +156,7 @@ scanf("%d", &escolhadacomparacao);
   break;
  default:
  printf("Opção inválida \n");
-  break;
+break;
 }
 
 printf("Agora escolha o segundo atributo para comparação:  \n");
